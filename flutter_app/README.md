@@ -46,8 +46,3 @@ Para Android, instale o Android SDK e um dispositivo/emulador, então use
 Mac com Xcode e uma conta Apple. A compilação Android/iOS não foi executada
 neste computador porque ele não tem Android SDK nem macOS/Xcode.
 
-## Apresentação
-
-O roteiro e a evidência de desempenho estão em `../docs/superpowers/`. Não
-apresente FPS, RAM ou ganho em dispositivo físico sem coletá-los no aparelho
-usado na demonstração.

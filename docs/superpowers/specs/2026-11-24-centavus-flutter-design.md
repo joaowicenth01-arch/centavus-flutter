@@ -38,7 +38,6 @@ Adicionar ao projeto:
 - Agregação mensal e processamento de backups grandes fora do isolate de interface quando apropriado, com benchmark de referência equivalente.
 - Persistência local e consultas por competência, evitando carregar todo o histórico para renderizar uma tela.
 - Cenário reproduzível com dados sintéticos, baseline e versão otimizada; coletar duração de processamento e tempos de frames em modo profile no mesmo dispositivo, documentando ambiente e limites. Nunca inventar números de RAM, FPS ou cold start.
-- Roteiro de 10 minutos: contexto 1min, stack/arquitetura 1min30, demo 2min, otimizações 3min30, métricas 1min30, lições 30s.
 - Separar regras de negócio, persistência e widgets; descartar controllers, listeners e subscriptions corretamente.
 
 ## Revisão do escopo

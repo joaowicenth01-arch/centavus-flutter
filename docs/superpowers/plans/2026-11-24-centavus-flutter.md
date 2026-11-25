@@ -16,7 +16,7 @@ Parcelas atravessando anos; datas no fim do mês; pagamentos de fatura sem despe
 - [x] 2. Testar e implementar domínio: dinheiro, parcelas, competência, fatura e transferências.
 - [x] 3. Testar e implementar SQLite, autenticação local com PBKDF2, isolamento, backup legado v3 e novo v4.
 - [x] 4. Implementar login, resumo, extrato lazy, editor de movimentações, contas/cartões/faturas, planejamento/análises/configurações e controles expansíveis. Testar principais fluxos.
-- [x] 5. Implementar benchmark equivalente baseline/indexação, importação em isolate, monitor de frames e roteiro de apresentação.
+- [x] 5. Implementar benchmark equivalente baseline/indexação, importação em isolate e monitor de frames.
 - [x] 6. Analisar, testar, compilar Web, conferir visual; revisar e empacotar fonte sem SDK/caches; registrar limites Android/iOS.
 
 ## Progress ledger
