@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-24T09:07:20.558512",
+  "rows": 50000,
+  "months": 84,
+  "trials": 7,
+  "warmup": 1,
+  "baselineMedianMicros": 591677,
+  "indexedMedianMicros": 9607,
+  "speedup": 61.58811283439159,
+  "equivalent": true,
+  "checksum": 1426285000,
+  "scope": "CPU de agregação em memória; não mede RAM, inicialização nem FPS."
+}

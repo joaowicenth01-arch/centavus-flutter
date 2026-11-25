@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Centavus - Prévia celular</title>
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background: radial-gradient(circle at 50% 0%, #1b6d51 0%, #10261f 42%, #08130f 100%);
+        font-family: Arial, sans-serif;
+      }
+      .phone {
+        position: relative;
+        width: min(430px, 100%);
+        height: min(880px, calc(100vh - 48px));
+        padding: 10px;
+        border: 3px solid #5b776b;
+        border-radius: 46px;
+        background: #07110d;
+        box-shadow: 0 24px 70px rgba(0,0,0,.58), inset 0 0 0 1px #a7c6b7;
+        overflow: hidden;
+      }
+      .speaker {
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        z-index: 2;
+        width: 104px;
+        height: 23px;
+        transform: translateX(-50%);
+        border-radius: 0 0 16px 16px;
+        background: #07110d;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        border-radius: 34px;
+        background: #f5fbf7;
+      }
+      @media (max-width: 480px) {
+        body { padding: 0; background: #07110d; }
+        .phone { width: 100vw; height: 100vh; border-radius: 0; border: 0; padding: 0; box-shadow: none; }
+        iframe { border-radius: 0; }
+        .speaker { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="phone" aria-label="Prévia do Centavus em celular">
+      <div class="speaker" aria-hidden="true"></div>
+      <iframe title="Centavus em celular" src="./"></iframe>
+    </main>
+  </body>
+</html>
